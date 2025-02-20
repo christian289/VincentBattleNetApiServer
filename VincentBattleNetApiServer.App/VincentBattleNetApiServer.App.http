@@ -1,0 +1,36 @@
+@VincentBattleNetApiServer.App_HostAddress = http://localhost:8080
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/realmsindex
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/toyindex
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/toy/30
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/wowtokenindex
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/accountprofilesummary
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/accounttoyscollectionsummary
+Accept: application/json
+
+###
+
+GET {{VincentBattleNetApiServer.App_HostAddress}}/api/characterachievementssummary/azshara/와우레이드톡방/achievements
+Accept: application/json
+
+###
