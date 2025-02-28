@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VincentBattleNetApiServer.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VincentBattleNetApiServer.Core", "VincentBattleNetApiServer.Core\VincentBattleNetApiServer.Core.csproj", "{C4486797-2664-4ABC-8466-E27B93B33A08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleNetApiDiscordBot", "BattleNetApiDiscordBot\BattleNetApiDiscordBot.csproj", "{48CB16C9-7BC8-4D94-8092-22A93E02B96A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{C4486797-2664-4ABC-8466-E27B93B33A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4486797-2664-4ABC-8466-E27B93B33A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4486797-2664-4ABC-8466-E27B93B33A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CB16C9-7BC8-4D94-8092-22A93E02B96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CB16C9-7BC8-4D94-8092-22A93E02B96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CB16C9-7BC8-4D94-8092-22A93E02B96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CB16C9-7BC8-4D94-8092-22A93E02B96A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

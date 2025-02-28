@@ -50,9 +50,7 @@ builder.Services.Configure<BattleNetAuth>(builder.Configuration.GetSection(nameo
 builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
 if (builder.Environment.IsDevelopment())
-{
     builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
-}
 
 var app = builder.Build();
 #endregion
